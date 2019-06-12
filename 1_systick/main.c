@@ -6,7 +6,7 @@ void setup_systick(uint32_t ticks);
 
 int main(void)
 {
-	setup_systick(200); //200 ms
+	setup_systick(42e5); //200 ms
 	blink(LED_BLUE); //should not return
 }
 
